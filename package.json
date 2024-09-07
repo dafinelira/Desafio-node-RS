@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node ./src/server.js"
   },
   "author": "Dáfine Lira",
   "license": "ISC",
   "description": "Desafio desenvolvido no programa explorer da Rocket Seat",
   "dependencies": {
-    "express": "^4.19.2"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
   }
 }

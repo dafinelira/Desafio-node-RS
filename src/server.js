@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const AppError = require('./utils/AppError')
-//const routes = require('./routes');
+const routes = require('./routes/index');
 
 //app.use(express.json());
 //app.use(routes);

@@ -1,5 +1,5 @@
 const createUsers = `
-    CREATE TABLE users (
+    CREATE TABLE IF NOT EXISTS users (
     id INTERGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR,
     email VARCHAR,
@@ -8,3 +8,5 @@ const createUsers = `
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     )
 `;
+
+module.exports = createUsers;

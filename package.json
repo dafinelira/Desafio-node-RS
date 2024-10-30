@@ -1,18 +1,5 @@
 {
-  "name": "desafio-node",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./src/server.js"
-  },
-  "author": "Dáfine Lira",
-  "license": "ISC",
-  "description": "Desafio desenvolvido no programa explorer da Rocket Seat",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "express": "^4.19.2",
-    "express-async-errors": "^3.1.1",
-    "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
+    "bcryptjs": "^2.4.3"
   }
 }

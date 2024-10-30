@@ -1,5 +1,9 @@
 const AppError = require('../utils/AppError')
 
+//fazer a senha criptografada
+//const {hash, compare} = require("bcryptjs");
+
+
 class UsersController {
   create(request, response) {
     const { name, email, password } = request.body

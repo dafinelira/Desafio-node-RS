@@ -1,4 +1,4 @@
-const sqliteConnection = require('../sqlite');
+const sqliteConnection = require('../../sqlite');
 
 const createUsers = require('./createUsers');
 const createMovies = require('./createMovies');
@@ -15,4 +15,3 @@ async function migrationsRun() {
 }
 
 module.exports = migrationsRun;
-

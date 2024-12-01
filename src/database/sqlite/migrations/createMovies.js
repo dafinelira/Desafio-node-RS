@@ -4,7 +4,7 @@ const createMovies = `
     title VARCHAR,
     description VARCHAR,
     nota INTEGER,
-    user_id INTEGER REFERENCES users(id), 
+    user_id INTEGER REFERENCES users(id) ON DELETE CASCADE, 
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )`;

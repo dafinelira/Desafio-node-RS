@@ -5,6 +5,6 @@ const createTags = `
     user_id INTEGER REFERENCES users(id), 
     name_note VARCHAR,
     )`;
-;
+
 
 module.exports = createTags;
